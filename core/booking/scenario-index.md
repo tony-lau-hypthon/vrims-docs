@@ -1,4 +1,6 @@
 # Scenario Index Update
-- BS-BKG-008 Check-in Client
-- BS-BKG-009 Complete Treatment
-- BS-BKG-010 No-show Handling
+
+Release 003.4R
+- BS-BKG-011 Cancel Booking
+- BS-BKG-012 Reschedule Booking
+- BS-BKG-013 Booking Closure

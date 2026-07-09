@@ -1,3 +1,6 @@
-# Release 003.3R – Booking Execution (Review)
+# Release 003.4R – Booking Maintenance (Review)
 
-Scope: Check-in, Complete Treatment, No-show.
+Scope
+- BS-BKG-011 Cancel Booking
+- BS-BKG-012 Reschedule Booking
+- BS-BKG-013 Booking Closure

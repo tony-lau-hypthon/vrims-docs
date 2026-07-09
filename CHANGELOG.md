@@ -1,1 +1,4 @@
-Added BS-BKG-008~010 and booking execution flow.
+Added:
+- Booking maintenance scenarios
+- Booking maintenance flow
+- Review checklist

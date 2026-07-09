@@ -1,3 +1,4 @@
-- [ ] Check-in flow
-- [ ] Completion flow
-- [ ] No-show handling
+- [ ] Cancellation flow
+- [ ] Reschedule flow
+- [ ] Booking closure
+- [ ] Missing business rules
