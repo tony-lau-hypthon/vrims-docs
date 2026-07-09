@@ -1,0 +1,5 @@
+- [ ] Redemption timing
+- [ ] No-show policy
+- [ ] Audit history
+- [ ] Booking relationship
+- [ ] Remaining balance update

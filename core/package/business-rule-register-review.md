@@ -1,9 +1,8 @@
-# Package Business Rules (Foundation)
+# Redemption Business Rules
 
 | Rule ID | Rule |
 |---|---|
-| BR-PKG-001 | Customer may own multiple packages. |
-| BR-PKG-002 | Package must be validated before booking confirmation where applicable. |
-| BR-PKG-003 | Redemption occurs after completed treatment. |
-| BR-PKG-004 | Earliest expiry package is consumed first. |
-| BR-PKG-005 | Package transaction history must be retained. |
+| BR-PKG-006 | Package entitlement is redeemed only after treatment reaches Completed status. |
+| BR-PKG-007 | No-show shall not consume package entitlement. |
+| BR-PKG-008 | Every redemption must create an auditable transaction history. |
+| BR-PKG-009 | Remaining package balance is updated immediately after successful redemption. |

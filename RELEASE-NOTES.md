@@ -1,23 +1,14 @@
-# Release-007.1R — Package Validation (Review)
+# Release-007.2R — Package Redemption
 
 ## Purpose
-Define package validation behaviour for service booking and treatment entitlement review.
-
-## Audience
-- Tony BA Review
-- VR / VRC business users
+Define how package entitlement is consumed after service delivery.
 
 ## Scope
-Included:
-- Package validation scenario catalogue
-- Validate active package
-- Validate treatment eligibility
-- Validate package balance
-- Handle multiple valid packages
-- Validation flow
+- Package redemption
+- No-show handling
+- Redemption audit trail
+- Booking relationship
 
-Excluded:
-- Package redemption after treatment
-- Refund / credit note processing
-- Detailed accounting entries
-- Odoo configuration
+Out of Scope:
+- Package lifecycle (007.3R)
+- Governance & maintenance (007.4R)
