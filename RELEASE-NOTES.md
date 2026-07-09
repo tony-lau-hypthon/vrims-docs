@@ -1,19 +1,26 @@
-# Release-008.2R — Assessment Outcome & Governance
+# Release-008.3R — Assessment Capability Consolidation
 
 ## Purpose
-Define how completed VRC assessments drive treatment recommendation, booking readiness and package planning.
+Consolidate Assessment Management into a review-ready capability package after assessment execution and outcome governance releases.
+
+## Audience
+- Tony BA Review
+- VR / VRC business users
+- Hopkins early preview
 
 ## Scope
 Included:
-- Assessment outcome matrix
-- Treatment recommendation matrix
-- Assessment-to-booking traceability
-- Business rule register
-- Decision register
-- Readiness assessment
+- Assessment review pack
+- Assessment capability summary
+- Assessment scenario catalogue
+- Assessment business rule register
+- Assessment decision register
+- Assessment traceability matrix
+- Impacted modules
+- Capability readiness assessment
 
 Excluded:
-- Clinical assessment form design
-- Medical scoring calculation
+- Clinical scoring formula
+- Detailed assessment form fields
 - Odoo configuration
 - Technical implementation

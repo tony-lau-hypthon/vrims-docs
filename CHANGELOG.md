@@ -1,9 +1,12 @@
-# CHANGELOG — Release-008.2R
+# CHANGELOG — Release-008.3R
 
 ## Added
-- Assessment outcome matrix
-- Treatment recommendation matrix
-- Assessment to booking traceability
-- Assessment business rule register
-- Assessment decision register
-- Assessment readiness review
+- `core/assessment/review-pack.md`
+- `core/assessment/capability-summary-review.md`
+- `core/assessment/scenario-catalogue-review.md`
+- `core/assessment/decision-register-review.md`
+- `core/assessment/traceability-matrix-review.md`
+- `core/assessment/impacted-modules.md`
+- `core/assessment/capability-readiness-review.md`
+- `core/assessment/open-items-consolidated.md`
+- `review/release-008.3R-review-checklist.md`
