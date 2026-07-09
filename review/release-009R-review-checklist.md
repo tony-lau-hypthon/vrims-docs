@@ -1,0 +1,5 @@
+- [ ] Notification categories
+- [ ] Channels
+- [ ] Audience
+- [ ] Lifecycle
+- [ ] Shared capability concept
