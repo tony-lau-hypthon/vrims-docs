@@ -1,7 +1,3 @@
-# Release 003.2R – Booking Confirmation (Review)
+# Release 003.3R – Booking Execution (Review)
 
-Audience: VR Business Users
-
-Purpose:
-Validate the business behaviour for therapist assignment, booking confirmation
-and booking reminder before functional specification.
+Scope: Check-in, Complete Treatment, No-show.

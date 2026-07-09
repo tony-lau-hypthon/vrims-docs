@@ -1,7 +1,3 @@
-# Review Checklist
-
-- [ ] Therapist assignment flow correct
-- [ ] Reception confirmation flow correct
-- [ ] Reminder timing correct
-- [ ] Missing business rules?
-- [ ] Missing exception flow?
+- [ ] Check-in flow
+- [ ] Completion flow
+- [ ] No-show handling
