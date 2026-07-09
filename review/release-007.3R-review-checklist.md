@@ -1,0 +1,5 @@
+- [ ] Expiry behaviour
+- [ ] Freeze policy
+- [ ] Resume policy
+- [ ] Extension policy
+- [ ] Transfer policy

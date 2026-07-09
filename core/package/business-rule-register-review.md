@@ -1,8 +1,8 @@
-# Redemption Business Rules
+# Additional Lifecycle Rules
 
-| Rule ID | Rule |
+| ID | Rule |
 |---|---|
-| BR-PKG-006 | Package entitlement is redeemed only after treatment reaches Completed status. |
-| BR-PKG-007 | No-show shall not consume package entitlement. |
-| BR-PKG-008 | Every redemption must create an auditable transaction history. |
-| BR-PKG-009 | Remaining package balance is updated immediately after successful redemption. |
+| BR-PKG-011 | Expired packages cannot be redeemed. |
+| BR-PKG-012 | Frozen packages cannot be consumed. |
+| BR-PKG-013 | Lifecycle changes require audit history. |
+| BR-PKG-014 | Validity extension requires authorised approval. |

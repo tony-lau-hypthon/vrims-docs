@@ -1,1 +1,1 @@
-# Added package redemption scenarios, rules and flow.
+# Added lifecycle scenarios and governance documents.
