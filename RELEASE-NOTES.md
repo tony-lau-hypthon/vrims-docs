@@ -1,10 +1,23 @@
-# Release-007R — Package Management Foundation (Review)
+# Release-007.1R — Package Validation (Review)
 
-Purpose:
-Establish Package Management as a reusable core capability for VRIMS.
+## Purpose
+Define package validation behaviour for service booking and treatment entitlement review.
 
-Audience:
+## Audience
 - Tony BA Review
-- VR Business Users
+- VR / VRC business users
 
-This release focuses on business understanding only.
+## Scope
+Included:
+- Package validation scenario catalogue
+- Validate active package
+- Validate treatment eligibility
+- Validate package balance
+- Handle multiple valid packages
+- Validation flow
+
+Excluded:
+- Package redemption after treatment
+- Refund / credit note processing
+- Detailed accounting entries
+- Odoo configuration
