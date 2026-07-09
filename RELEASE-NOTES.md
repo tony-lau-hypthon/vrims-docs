@@ -1,10 +1,6 @@
-# Release-012R — Wellness Centre Assembly v1.0R
+# Release-013R — Repository Navigation Layer
 
-Assemble Wellness Centre (VRC) Business Review package by referencing completed capabilities:
-- Booking
-- Package
-- Assessment
-- Notification
-- Billing
+Purpose:
+Create a navigation layer for the VRIMS documentation repository so reviewers can quickly locate capabilities, scenarios, business rules and decisions.
 
-This is a Review Version for business validation, not a Functional Configuration Specification.
+This release does not introduce new business requirements.
