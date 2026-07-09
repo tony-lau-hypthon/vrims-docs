@@ -1,25 +1,19 @@
-# Release 003.5R – Booking Capability Consolidation
-
-## Release Type
-Review Version (R)
+# Release 005 — Document Layer Render Settings
 
 ## Purpose
-Consolidate Booking Management into a coherent Review Pack after Releases 003.1R–003.4R.
 
-This release does not add new booking scenarios. It organises the completed scenario set into a capability-level review structure that can later be referenced by the Wellness Centre (VRC) Business Functional Design.
+Add render configuration so GLM can generate different document depths from the same Markdown repository.
 
-## Scope
-Included:
-- Booking Capability Overview
-- Booking Review Pack README
-- Booking Lifecycle Summary
-- Booking Scenario Catalogue
-- Booking Business Rule Register
-- Booking Decision Register
-- Booking Traceability Matrix
-- Booking Review Summary
+## Document Layers
 
-Excluded:
-- Functional-level validation matrix
-- Odoo configuration design
-- Technical implementation design
+| Layer | Audience | Expected Use |
+|---|---|---|
+| Executive | VR management | Short business overview |
+| Business | VR users / operations | Business review and sign-off |
+| Functional | Hopkins | Functional configuration input |
+| Technical | Developers | Technical design input |
+
+## Important Principle
+
+Markdown remains the single source of truth.  
+Word/PDF are generated outputs.

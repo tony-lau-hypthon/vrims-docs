@@ -1,0 +1,26 @@
+# VRIMS Render Configuration
+
+project:
+  name: VRIMS
+  repository: vrims-docs
+  source_format: markdown
+  output_formats:
+    - docx
+    - pdf
+
+default:
+  language: en
+  numbering: true
+  table_of_contents: true
+  include_metadata: true
+  include_release_notes: false
+
+output_paths:
+  executive: exports/executive
+  business: exports/business
+  functional: exports/functional
+  technical: exports/technical
+
+naming:
+  pattern: "{document_id}_{title}_{level}_{version}"
+  example: "VRIMS-WC-001_Wellness-Centre_business_v1.0R"

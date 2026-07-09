@@ -1,0 +1,67 @@
+# Markdown Include Rules for GLM Renderer
+
+rules:
+  heading_based:
+    executive:
+      include_headings:
+        - "Purpose"
+        - "Executive Summary"
+        - "Scope"
+        - "Business Objective"
+        - "Customer Journey"
+        - "Capability Summary"
+        - "Major Decisions"
+        - "Open Items"
+        - "Implementation Readiness"
+      exclude_headings:
+        - "Acceptance Criteria"
+        - "Traceability"
+        - "Validation Matrix"
+        - "Permission Matrix"
+        - "Technical Design"
+        - "API"
+        - "Database"
+
+    business:
+      include_headings:
+        - "Purpose"
+        - "Business Context"
+        - "Actors"
+        - "Trigger"
+        - "Preconditions"
+        - "Main Success Flow"
+        - "Alternative Flow"
+        - "Exception Flow"
+        - "Related Business Rules"
+        - "Related Decisions"
+        - "Evidence"
+        - "Review Questions"
+        - "Future Enhancement"
+      exclude_headings:
+        - "API"
+        - "Database"
+        - "Source Code"
+        - "Technical Design"
+
+    functional:
+      include_all_business: true
+      include_headings:
+        - "Acceptance Criteria"
+        - "Validation Matrix"
+        - "Permission Matrix"
+        - "Notification Matrix"
+        - "Reporting Impact"
+        - "Traceability"
+        - "Readiness Assessment"
+
+  front_matter_based:
+    supported_keys:
+      - visibility
+      - level
+      - audience
+    example:
+      visibility:
+        executive: true
+        business: true
+        functional: true
+        technical: false

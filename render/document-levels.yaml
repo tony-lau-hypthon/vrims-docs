@@ -1,0 +1,86 @@
+# Document Layer Definitions
+
+levels:
+  executive:
+    label: Executive Review
+    audience:
+      - VR management
+      - department heads
+    target_pages: "10-20"
+    include_sections:
+      - purpose
+      - scope
+      - executive_summary
+      - customer_journey
+      - capability_summary
+      - major_decisions
+      - open_items
+    exclude_sections:
+      - detailed_scenarios
+      - acceptance_criteria
+      - traceability
+      - technical_design
+      - validation_matrix
+      - permission_matrix
+
+  business:
+    label: Business Review
+    audience:
+      - VR business users
+      - operations
+      - finance users
+      - therapists
+      - reception
+    target_pages: "30-60"
+    include_sections:
+      - purpose
+      - scope
+      - business_context
+      - customer_journey
+      - scenarios
+      - business_rules
+      - decisions
+      - business_logic_summary
+      - review_questions
+      - open_items
+    exclude_sections:
+      - technical_design
+      - database
+      - api
+      - code
+
+  functional:
+    label: Functional Review
+    audience:
+      - Hopkins functional consultants
+      - BA team
+    target_pages: "80-150"
+    include_sections:
+      - all_business_sections
+      - detailed_scenarios
+      - acceptance_criteria
+      - validation_matrix
+      - permission_matrix
+      - notification_matrix
+      - reporting
+      - traceability
+      - readiness_assessment
+    exclude_sections:
+      - source_code
+      - database_schema
+      - api_payload
+
+  technical:
+    label: Technical Design
+    audience:
+      - developers
+      - integration team
+    target_pages: "TBD"
+    include_sections:
+      - technical_design
+      - integration
+      - api
+      - data_mapping
+      - security_notes
+    exclude_sections:
+      - executive_summary_only

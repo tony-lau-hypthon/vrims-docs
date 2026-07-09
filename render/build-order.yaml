@@ -1,0 +1,34 @@
+# Build Order
+
+documents:
+  booking_review:
+    document_id: VRIMS-BKG-001
+    title: Booking Management
+    level_default: business
+    sources:
+      - core/booking/review-pack.md
+      - core/booking/capability-summary.md
+      - core/booking/scenario-catalogue.md
+      - core/booking/scenarios/
+      - core/booking/business-rule-register-review.md
+      - core/booking/decision-register-review.md
+      - core/booking/traceability-matrix-review.md
+      - core/booking/implementation-readiness-review.md
+
+  wellness_centre_review:
+    document_id: VRIMS-WC-001
+    title: Wellness Centre
+    level_default: business
+    sources:
+      - modules/wellness-centre/README.md
+      - modules/wellness-centre/overview.md
+      - modules/wellness-centre/customer-journey.md
+      - modules/wellness-centre/services.md
+      - modules/wellness-centre/booking-reference.md
+      - modules/wellness-centre/package-overview.md
+      - modules/wellness-centre/assessment-overview.md
+      - modules/wellness-centre/promotion-membership.md
+      - modules/wellness-centre/reporting.md
+      - core/booking/review-pack.md
+      - core/booking/capability-summary.md
+      - core/booking/scenario-catalogue.md
