@@ -1,29 +1,10 @@
-# Release-006R — Wellness Centre Business Review Assembly
+# Release-007R — Package Management Foundation (Review)
 
-## Release Type
-Review Version (R)
+Purpose:
+Establish Package Management as a reusable core capability for VRIMS.
 
-## Purpose
-Assemble the Wellness Centre (VRC) module into a business review package using the existing Booking Management capability as a referenced core capability.
-
-## Audience
-- Tony / BA Review
+Audience:
+- Tony BA Review
 - VR Business Users
-- Hopkins Functional Consultant (early preview only)
 
-## Scope
-Included:
-- Wellness Centre executive summary
-- Business scope
-- Customer journey
-- Capability reference map
-- Booking reference chapter
-- VRC-specific business notes
-- Open items
-- Review readiness
-
-Excluded:
-- Full Package capability specification
-- Full Assessment capability specification
-- Odoo configuration design
-- Technical design
+This release focuses on business understanding only.

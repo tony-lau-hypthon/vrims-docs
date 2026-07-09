@@ -1,4 +1,5 @@
-- [ ] Cancellation flow
-- [ ] Reschedule flow
-- [ ] Booking closure
-- [ ] Missing business rules
+- [ ] Package lifecycle
+- [ ] Package concepts
+- [ ] Scope
+- [ ] Business principles
+- [ ] Open items
