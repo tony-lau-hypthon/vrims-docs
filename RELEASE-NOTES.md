@@ -1,21 +1,11 @@
-# Release-009.2R — Notification Capability Consolidation
+# Release-010R — Billing Foundation
 
-## Purpose
-Consolidate Notification into a reusable shared capability review package.
+Business Review release establishing the Billing capability for VRIMS Wellness Centre.
 
-## Scope
-Included:
-- Notification review pack
-- Notification capability summary
-- Notification event catalogue
-- Notification business rule register
-- Notification decision register
-- Notification traceability matrix
-- Impacted modules
-- Readiness assessment
-
-Excluded:
-- Provider configuration
-- WhatsApp API integration
-- Final message templates
-- Retry technical logic
+Scope:
+- Billing lifecycle
+- Charge types
+- Payment types
+- Invoice ownership
+- Billing status
+- High-level business rules
