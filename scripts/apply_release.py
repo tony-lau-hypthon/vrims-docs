@@ -50,7 +50,8 @@ from pathlib import Path
 
 # Top-level dirs a release is allowed to write into. Root-level files are
 # always allowed. Anything else (e.g. .git/, random dirs) aborts the run.
-ALLOWED_TOP_DIRS = {"core", "modules", "shared", "standards", "review"}
+ALLOWED_TOP_DIRS = {"core", "modules", "shared", "standards", "review",
+                    "render", "templates", "exports"}
 
 # Files that are packaging metadata, not content. They are never written into
 # the repo. commit-message.txt is consumed as the commit message.
