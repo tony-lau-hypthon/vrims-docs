@@ -1,19 +1,19 @@
-# Release 002 — Core Booking Foundation
+# CHANGELOG — Release 003.1R
 
 ## Added
 
-- `core/booking/overview.md`
-- `core/booking/domain-model.md`
-- `core/booking/actors.md`
-- `core/booking/booking-lifecycle.md`
-- `core/booking/business-rules.md`
-- `core/booking/decision-register.md`
-- `core/booking/acceptance.md`
-- `core/booking/notifications.md`
-- `core/booking/reporting.md`
-- `core/booking/traceability.md`
+- Detailed scenario files under `core/booking/scenarios/`
+- Booking initiation flow under `core/booking/diagrams/`
+- Review checklist under `review/`
+- Updated scenario index
 
-## Purpose
+## Business Knowledge Added
 
-This release establishes Booking Management as a reusable VRIMS core capability.  
-Current content is primarily based on VRC Session 5 evidence and will evolve as Resident, VC and Portal sessions are confirmed.
+- VRC customer cannot select therapist during booking request
+- VRC customer cannot cancel or reschedule booking online
+- VRC booking request begins as Pending
+- Reception must review pending booking request
+- Package validation is required before confirmation
+- Closest-expiry package is consumed first when multiple packages are valid
+- Therapist and room cannot be double-booked
+- VRC currently does not support waiting list or home visit booking
