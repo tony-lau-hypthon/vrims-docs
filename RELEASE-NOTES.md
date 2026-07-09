@@ -1,19 +1,29 @@
-# Release 005 — Document Layer Render Settings
+# Release-006R — Wellness Centre Business Review Assembly
+
+## Release Type
+Review Version (R)
 
 ## Purpose
+Assemble the Wellness Centre (VRC) module into a business review package using the existing Booking Management capability as a referenced core capability.
 
-Add render configuration so GLM can generate different document depths from the same Markdown repository.
+## Audience
+- Tony / BA Review
+- VR Business Users
+- Hopkins Functional Consultant (early preview only)
 
-## Document Layers
+## Scope
+Included:
+- Wellness Centre executive summary
+- Business scope
+- Customer journey
+- Capability reference map
+- Booking reference chapter
+- VRC-specific business notes
+- Open items
+- Review readiness
 
-| Layer | Audience | Expected Use |
-|---|---|---|
-| Executive | VR management | Short business overview |
-| Business | VR users / operations | Business review and sign-off |
-| Functional | Hopkins | Functional configuration input |
-| Technical | Developers | Technical design input |
-
-## Important Principle
-
-Markdown remains the single source of truth.  
-Word/PDF are generated outputs.
+Excluded:
+- Full Package capability specification
+- Full Assessment capability specification
+- Odoo configuration design
+- Technical design
