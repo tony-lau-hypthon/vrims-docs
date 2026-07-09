@@ -1,4 +1,7 @@
-# Scenario Index Update
-- BS-BKG-005
-- BS-BKG-006
-- BS-BKG-007
+# Booking Scenario Index (Update)
+
+## Release 003.2R
+
+- BS-BKG-005 Assign Therapist
+- BS-BKG-006 Confirm Booking
+- BS-BKG-007 Send Booking Reminder
