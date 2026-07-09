@@ -1,1 +1,1 @@
-# Initial Billing Foundation capability.
+# Added billing charge processing scenarios and flow.

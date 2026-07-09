@@ -1,11 +1,12 @@
-# Release-010R — Billing Foundation
+# Release-010.1R — Billing Charge Processing
 
-Business Review release establishing the Billing capability for VRIMS Wellness Centre.
+## Purpose
+Define business scenarios for creating and processing billable charges within the Wellness Centre.
 
-Scope:
-- Billing lifecycle
-- Charge types
-- Payment types
-- Invoice ownership
-- Billing status
-- High-level business rules
+Included:
+- Assessment charge
+- Package purchase
+- Single treatment charge
+- Add-on charge
+- Manual charge
+- Invoice generation trigger

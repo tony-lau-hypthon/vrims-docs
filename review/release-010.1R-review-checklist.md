@@ -1,0 +1,6 @@
+- [ ] Assessment charging
+- [ ] Package purchase charging
+- [ ] Single treatment charging
+- [ ] Add-on charging
+- [ ] Manual charging
+- [ ] Invoice generation trigger
