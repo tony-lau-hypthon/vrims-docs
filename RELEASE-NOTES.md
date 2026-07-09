@@ -1,9 +1,6 @@
-# Release-010.3R — Billing Capability Consolidation
+# Release-011R — Repository Quality Review
 
-Purpose: consolidate Billing Management into a review-ready capability package after Billing Foundation, Charge Processing, and Adjustment / Settlement releases.
+Purpose:
+Establish repository-wide governance before generating the Wellness Centre Business Functional Design.
 
-Audience:
-- Tony BA Review
-- VR / VRC business users
-- Finance users
-- Hopkins early preview
+This release introduces review artefacts only.
