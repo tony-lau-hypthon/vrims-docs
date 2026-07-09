@@ -1,27 +1,9 @@
-# Release-010.2R — Billing Adjustment & Settlement
+# Release-010.3R — Billing Capability Consolidation
 
-## Purpose
-Define business review scenarios for billing settlement, adjustment, credit note, refund and referral fee handling.
+Purpose: consolidate Billing Management into a review-ready capability package after Billing Foundation, Charge Processing, and Adjustment / Settlement releases.
 
-## Audience
+Audience:
 - Tony BA Review
 - VR / VRC business users
 - Finance users
 - Hopkins early preview
-
-## Scope
-Included:
-- Payment allocation
-- Payment received
-- Outstanding balance
-- Credit note processing
-- Refund processing
-- Write-off handling
-- Referral fee settlement
-- Billing adjustment flow
-
-Excluded:
-- Accounting journal configuration
-- Tax calculation
-- Payment gateway API implementation
-- Detailed finance posting rules
