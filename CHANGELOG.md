@@ -1,9 +1,12 @@
-# CHANGELOG
+# CHANGELOG — Release-012R
 
-Added governance review documents:
-- Naming standard
-- ID audit
-- Cross-capability traceability
-- Metadata standard
-- Repository readiness
-- Review checklist
+Added:
+- Wellness Centre v1.0R assembly
+- Executive review
+- Business scope
+- Customer journey
+- Capability reference map
+- Module scenario map
+- Business rules summary
+- Open items
+- Review readiness

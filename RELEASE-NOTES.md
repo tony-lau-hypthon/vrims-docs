@@ -1,6 +1,10 @@
-# Release-011R — Repository Quality Review
+# Release-012R — Wellness Centre Assembly v1.0R
 
-Purpose:
-Establish repository-wide governance before generating the Wellness Centre Business Functional Design.
+Assemble Wellness Centre (VRC) Business Review package by referencing completed capabilities:
+- Booking
+- Package
+- Assessment
+- Notification
+- Billing
 
-This release introduces review artefacts only.
+This is a Review Version for business validation, not a Functional Configuration Specification.
