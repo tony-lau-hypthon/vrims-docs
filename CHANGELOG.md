@@ -1,15 +1,13 @@
-# CHANGELOG — Release-009.1R
+# CHANGELOG — Release-009.2R
 
 ## Added
-- `shared/notification/event-library.md`
-- `shared/notification/events/NTF-BKG-001-Booking-Confirmed.md`
-- `shared/notification/events/NTF-BKG-002-Booking-Reminder.md`
-- `shared/notification/events/NTF-BKG-003-Booking-Cancelled.md`
-- `shared/notification/events/NTF-ASM-001-Assessment-Created.md`
-- `shared/notification/events/NTF-ASM-002-Assessment-Completed.md`
-- `shared/notification/events/NTF-PKG-001-Package-Expiry-Reminder.md`
-- `shared/notification/events/NTF-PKG-002-Package-Balance-Low.md`
-- `shared/notification/events/NTF-BIL-001-Invoice-Generated.md`
-- `shared/notification/events/NTF-PORTAL-001-Account-Created.md`
-- `shared/notification/diagrams/notification-event-flow.md`
-- `review/release-009.1R-review-checklist.md`
+- `shared/notification/review-pack.md`
+- `shared/notification/capability-summary-review.md`
+- `shared/notification/event-catalogue-review.md`
+- `shared/notification/business-rule-register-review.md`
+- `shared/notification/decision-register-review.md`
+- `shared/notification/traceability-matrix-review.md`
+- `shared/notification/impacted-modules.md`
+- `shared/notification/capability-readiness.md`
+- `shared/notification/open-items-review.md`
+- `review/release-009.2R-review-checklist.md`
