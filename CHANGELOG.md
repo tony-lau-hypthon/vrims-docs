@@ -1,3 +1,18 @@
+## Release-015R — BA Brain Governance Foundation (Finalised)
+
+Consolidated governance framework across 5 packs:
+- Repository constitution, AI operating rules, decision hierarchy, bootstrap governance (Pack 1)
+- Knowledge integrity, repository health, lifecycle, release governance (Pack 2)
+- Evidence priority, knowledge classification, maintenance, delta, authoring standards (Pack 3)
+- Domain maturity model, traceability, design principles, roadmap, QA checklists (Pack 4)
+- Final integrity gate, GLM prompt templates, canonical release summary, navigation updates (Pack 5)
+
+Root navigation now exposes governance, standards, review, templates, and release summary sections.
+
+Business knowledge impact: None.
+
+---
+
 ## Release-015R Pack 4
 - Domain Maturity Model, Knowledge Traceability, Repository Design Principles, Repository Roadmap added.
 - Knowledge Integrity Checklist and Release-015R Review Checklist added.

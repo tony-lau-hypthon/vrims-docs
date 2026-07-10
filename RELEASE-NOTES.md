@@ -1,3 +1,33 @@
+# Release-015R — BA Brain Governance Foundation (Finalised)
+
+## Release Type
+Repository Governance Release
+
+## Objective
+Convert `vrims-docs` from a documentation collection into a governed living BA knowledge repository.
+
+## Key Outcomes
+- Repository is the canonical current state.
+- Release packages are deltas, not standalone knowledge bases.
+- Git preserves history.
+- AI models reconstruct context from canonical repository files.
+- Evidence and knowledge classifications are standardised.
+- Silent overwrite is prohibited.
+- Knowledge integrity regression becomes a release gate.
+- Derived outputs are generated only from the latest committed baseline.
+
+## Packs
+1. Constitution and AI Governance
+2. Repository Governance
+3. Repository Standards
+4. QA and Roadmap
+5. Finalisation, navigation, prompts, and integrity gate
+
+## Business Scope Impact
+None. No business-domain rule should be added, removed, or reclassified by this release.
+
+---
+
 # Release-015R Pack 4 — QA, Traceability, Maturity and Roadmap
 
 Purpose:

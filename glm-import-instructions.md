@@ -1,31 +1,24 @@
-# GLM Import Instructions
+# GLM Import Instructions — Release-015R Pack 5
 
-## Goal
+The current GitHub repository already contains Release-015R Packs 1–4.
 
-Apply this release package into the `vrims-docs` repository and push to GitHub.
+Apply this pack as the finalisation delta.
 
-## Steps
+## Required Actions
 
-1. Clone or open the local `vrims-docs` repository.
-2. Extract this zip into a temporary folder.
-3. Copy the `core/booking/*.md` files into the repo root, preserving paths.
-4. Review changed files.
-5. Commit using the content of `commit-message.txt`.
+1. Merge Pack 5 into the current repository.
+2. Preserve existing governance content from Packs 1–4.
+3. Merge root `INDEX.md`, `CHANGELOG.md`, and `RELEASE-NOTES.md` intelligently.
+4. Add the GLM prompt templates.
+5. Add the canonical Release-015R summary.
+6. Run `review/release-015R-final-integrity-gate.md`.
+7. Confirm that no business-domain knowledge changed.
+8. Commit the changes.
+9. Stop after commit.
 
-## Suggested Commands
+## Do Not
 
-```bash
-cd /path/to/vrims-docs
-unzip /path/to/release-002-core-booking.zip -d /tmp/release-002
-rsync -av /tmp/release-002/core/ ./core/
-git status
-git add core/booking CHANGELOG.md
-git commit -F /tmp/release-002/commit-message.txt
-git push
-```
-
-## Notes
-
-- Do not overwrite `standards/` unless explicitly included in a future release.
-- This release does not include Word/PDF generation.
-- Markdown remains the source of truth.
+- Recreate Packs 1–4.
+- Replace the repository.
+- Generate Executive Review or Functional Design.
+- Modify business modules.

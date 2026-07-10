@@ -1,5 +1,13 @@
 # VRIMS Master Index
 
+## Start Here
+
+- `AI-BOOTSTRAP.md`
+- `README.md`
+- `governance/constitution.md`
+- `governance/ai-startup-sequence.md`
+- `governance/repository-health.md`
+
 ## Module
 - Wellness Centre (VRC)
   - `modules/wellness-centre/README.md`
@@ -68,4 +76,14 @@
 ## Review
 - `review/knowledge-integrity-checklist.md` — Knowledge Integrity Checklist (pre-merge gate)
 - `review/release-015R-review-checklist.md` — Release-015R Review Checklist
+- `review/release-015R-final-integrity-gate.md` — Release-015R Final Integrity Gate
 - `review/release-014R-review-checklist.md` — Release-014R Review Checklist
+
+## GLM Templates
+- `templates/glm-implement-release.md` — Implement Repository Delta
+- `templates/glm-generate-output.md` — Generate Output from Canonical Repository
+- `templates/glm-governance-release-prompt.md` — Governance Release
+- `templates/glm-business-release-prompt.md` — Business Domain Release
+
+## Release Summary
+- `docs/releases/015R-ba-brain-governance-foundation.md` — Release-015R BA Brain Governance Foundation
