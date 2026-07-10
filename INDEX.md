@@ -29,6 +29,10 @@
 - `governance/ai-startup-sequence.md` — AI Startup Sequence
 - `governance/bootstrap-governance.md` — Bootstrap Governance
 - `governance/decision-hierarchy.md` — Decision & Evidence Hierarchy
+- `governance/knowledge-integrity.md` — Knowledge Integrity Checks
+- `governance/repository-health.md` — Repository Health Metrics
+- `governance/repository-lifecycle.md` — Repository Lifecycle
+- `governance/release-governance.md` — Release Governance Rules
 - `governance/naming-standard.md` — Naming Standard
 - `governance/metadata-standard.md` — Metadata Standard
 - `governance/repository-readiness.md` — Repository Readiness

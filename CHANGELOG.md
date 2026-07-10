@@ -1,4 +1,8 @@
-## Release-015R
+## Release-015R Pack 2
+- Knowledge Integrity, Repository Health, Repository Lifecycle, Release Governance added.
+- INDEX.md governance section updated.
+
+## Release-015R Pack 1
 - Governance Pack 1 added (Constitution, AI Guidelines, AI Startup Sequence, Bootstrap Governance, Decision Hierarchy).
 - Conflict Review sections added to `governance/ai-guidelines.md` and `governance/decision-hierarchy.md`.
 - INDEX.md governance section updated to register new documents.

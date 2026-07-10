@@ -1,3 +1,12 @@
+# Release-015R Pack 2 — Repository Governance Controls
+
+Purpose:
+Introduces repository governance controls and release quality gates — knowledge integrity checks, repository health metrics, repository lifecycle definition, and release governance rules.
+
+This is an architectural governance release. It strengthens the repository operating model without changing existing business knowledge.
+
+---
+
 # Release-015R Pack 1 — Repository Governance Foundation
 
 Purpose:
