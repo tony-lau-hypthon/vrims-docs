@@ -1,3 +1,9 @@
+# Release-016R Pack 1 — Knowledge Classification Refactoring
+
+Repository governance refactoring only. Introduces Knowledge Status model, Source Type, and Validation Status as supplementary classification layers. No functional changes. No business rule changes. Existing 5-class knowledge classification retained as authoritative.
+
+---
+
 # Release-015R — BA Brain Governance Foundation (Finalised)
 
 ## Release Type

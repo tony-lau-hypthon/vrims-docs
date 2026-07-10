@@ -1,3 +1,10 @@
+## Release-016R Pack 1
+- Introduce Knowledge Status model (Confirmed, Validated, Assumption, Pending Validation, Deprecated).
+- Introduce Source Type classification.
+- Introduce Validation Status classification.
+- Added to `standards/knowledge-classification-standard.md` alongside existing 5-class system.
+- No business rule changes.
+
 ## Release-015R — BA Brain Governance Foundation (Finalised)
 
 Consolidated governance framework across 5 packs:
