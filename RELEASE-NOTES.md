@@ -1,3 +1,12 @@
+# Release-015R Pack 4 — QA, Traceability, Maturity and Roadmap
+
+Purpose:
+Introduces the repository QA, traceability, maturity, and roadmap layer. Completes the Release-015R governance framework.
+
+This pack does not modify business-domain knowledge. It completes the 4-pack governance framework (Constitution → Controls → Standards → QA/Roadmap).
+
+---
+
 # Release-015R Pack 3 — Repository Standards
 
 Purpose:

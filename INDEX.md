@@ -33,6 +33,10 @@
 - `governance/repository-health.md` — Repository Health Metrics
 - `governance/repository-lifecycle.md` — Repository Lifecycle
 - `governance/release-governance.md` — Release Governance Rules
+- `governance/repository-design-principles.md` — Repository Design Principles
+- `governance/knowledge-traceability.md` — Knowledge Traceability Framework
+- `governance/domain-maturity-model.md` — Domain Maturity Model
+- `governance/repository-roadmap.md` — Repository Roadmap
 - `governance/naming-standard.md` — Naming Standard
 - `governance/metadata-standard.md` — Metadata Standard
 - `governance/repository-readiness.md` — Repository Readiness
@@ -60,3 +64,8 @@
 - `standards/traceability-standard.md` — Traceability Standard
 - `standards/glossary-standard.md` — Glossary Standard
 - `standards/review-workflow.md` — Review Workflow
+
+## Review
+- `review/knowledge-integrity-checklist.md` — Knowledge Integrity Checklist (pre-merge gate)
+- `review/release-015R-review-checklist.md` — Release-015R Review Checklist
+- `review/release-014R-review-checklist.md` — Release-014R Review Checklist

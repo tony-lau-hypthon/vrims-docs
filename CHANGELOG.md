@@ -1,3 +1,8 @@
+## Release-015R Pack 4
+- Domain Maturity Model, Knowledge Traceability, Repository Design Principles, Repository Roadmap added.
+- Knowledge Integrity Checklist and Release-015R Review Checklist added.
+- INDEX.md updated with new governance and review documents.
+
 ## Release-015R Pack 3
 - Evidence Priority, Knowledge Classification, Repository Maintenance, Repository Delta, Document Authoring standards added.
 - Conflict Review sections added to 4 standards with thematic overlap.
