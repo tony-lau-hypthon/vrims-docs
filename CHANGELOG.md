@@ -1,3 +1,21 @@
+## Release-016R Pack 3 — VRC Review Readiness and Traceability Closure
+
+### Added
+- VRC Pack 3 release summary and merge checklist
+- Explicit separation of Confirmed Facts, Assumptions, Conflicts, Open Questions, Decisions and Related Modules
+- Business-review readiness gate after Pack 2 regression clarification
+
+### Changed
+- Wellness Centre review readiness aligned with current portal and booking scope
+- Wellness Centre open items reorganised for regression protection and review traceability
+- Repository navigation and GLM merge instructions advanced to Pack 3
+
+### Business Impact
+- No new business behaviour or business rule IDs
+- VRC domain is ready for controlled Executive and Business User Review generation
+
+---
+
 ## Release-016R Pack 2 — VRC Business Regression
 
 Added / Updated:

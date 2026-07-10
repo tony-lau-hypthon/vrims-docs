@@ -77,6 +77,8 @@
 - `review/knowledge-integrity-checklist.md` — Knowledge Integrity Checklist (pre-merge gate)
 - `review/release-015R-review-checklist.md` — Release-015R Review Checklist
 - `review/release-015R-final-integrity-gate.md` — Release-015R Final Integrity Gate
+- `review/release-016R-pack3-review-checklist.md` — Release-016R Pack 3 Review Checklist
+- `review/release-016R-pack2-review-checklist.md` — Release-016R Pack 2 Review Checklist
 - `review/release-014R-review-checklist.md` — Release-014R Review Checklist
 
 ## GLM Templates
@@ -86,4 +88,6 @@
 - `templates/glm-business-release-prompt.md` — Business Domain Release
 
 ## Release Summary
+- `docs/releases/016R-pack3-vrc-review-readiness-traceability.md` — Release-016R Pack 3 VRC Review Readiness and Traceability Closure
+- `docs/releases/016R-pack2-vrc-business-regression.md` — Release-016R Pack 2 VRC Business Regression
 - `docs/releases/015R-ba-brain-governance-foundation.md` — Release-015R BA Brain Governance Foundation
