@@ -3,7 +3,7 @@ id: VRIMS-WC-001-OPEN-ITEMS
 title: Wellness Centre Open Items
 type: Open Items
 module: Wellness Centre
-version: 1.1R
+version: 1.2R
 status: Domain Foundation Verified
 visibility:
   executive: true
@@ -13,7 +13,7 @@ visibility:
 
 # Open Items
 
-## Pending VR Confirmation
+## Pending Validation
 
 | Item | Area | Why Required |
 |---|---|---|
@@ -32,8 +32,17 @@ visibility:
 | Validity start rule | Package | Confirm purchase date vs first-use date |
 | Multiple-package selection | Package / Billing | Define automatic selection and whether controlled staff intervention exists |
 | Assessment matrix | Assessment | Map service/package to required assessment |
-| 45-minute scheduling | Booking | Explain reservation of two 30-minute slots |
 | Notification configuration | Notification | Confirm timing, language, recipient and final text |
+
+
+## Resolved by Business Clarification
+
+| Item | Resolution | Knowledge Status |
+|---|---|---|
+| Customer Portal scope | Web app with PWA capability for VR Resident, VRC Member and VC Member | Validated |
+| VRC online treatment booking | VRC Member can request treatment booking through the Customer Portal | Validated |
+| Future membership question | Removed; VRC Member is an existing user type | Validated |
+| 45-minute scheduling | Reserves two consecutive 30-minute slots; 45 minutes treatment plus 15 minutes unavailable remainder | Validated |
 
 ## Deferred Supporting Evidence
 
@@ -55,4 +64,3 @@ The open items list was restructured during the Release-014R merge. Key changes:
 | Payment items | Generic "Payment gateway provider" | Specific: eftPay integration approach, deposit/partial payment, accepted payment methods | Accepted — more precise |
 | Assessment items | "Detailed form fields / clinical scoring" | "Assessment matrix: service/package to required assessment" | Accepted — aligns with BR-BKG-014 |
 | Package items | "Same-expiry tie-breaker" | "Monthly package definition + validity start rule + multiple-package selection" | Accepted — richer |
-

@@ -1,3 +1,13 @@
+# Release-016R Pack 2 — VRC Business Regression
+
+This repository delta updates canonical VRC knowledge following Brain Regression.
+
+It confirms current Customer Portal and VRC online booking scope, clarifies fixed-slot booking behaviour, and removes obsolete future-scope questions.
+
+No Functional Design or Technical Specification is introduced.
+
+---
+
 # Release-016R Pack 1 — Knowledge Classification Refactoring
 
 Repository governance refactoring only. Introduces Knowledge Status model, Source Type, and Validation Status as supplementary classification layers. No functional changes. No business rule changes. Existing 5-class knowledge classification retained as authoritative.

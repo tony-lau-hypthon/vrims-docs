@@ -3,7 +3,7 @@ id: VRIMS-WC-001-REG-ASM
 title: Wellness Centre Registration and Assessment
 type: Business Foundation
 module: Wellness Centre
-version: 1.0R
+version: 1.1R
 status: Domain Foundation Verified
 ---
 
@@ -28,7 +28,11 @@ PICS acknowledgement and direct-marketing consent are separate controls.
 
 ## Current Rule
 
-**Tony Confirmed:** Assessment is required before purchasing any VRC package.
+**Knowledge Status:** Validated  
+**Source Type:** Business Clarification  
+**Validation Status:** Not Required
+
+Assessment is required before purchasing any VRC package.
 
 ## Functional Design Required
 

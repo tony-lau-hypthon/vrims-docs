@@ -7,7 +7,7 @@ Provide a reusable notification capability shared by Booking, Assessment, Packag
 - Email
 - SMS
 - WhatsApp (future)
-- Push Notification (PWA)
+- Push Notification for Customer Portal PWA
 - In-app Notification
 
 ## Audience
@@ -18,3 +18,8 @@ Provide a reusable notification capability shared by Booking, Assessment, Packag
 - Reception
 - Finance
 - Management
+
+
+## Portal Scope Clarification
+
+The Customer Portal web application with PWA capability is current scope for VR Resident, VRC Member and VC Member. Detailed push-notification implementation remains subject to portal functional design.

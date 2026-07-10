@@ -1,24 +1,20 @@
-# GLM Import Instructions — Release-015R Pack 5
+# GLM Import Instructions — Release-016R Pack 2
 
-The current GitHub repository already contains Release-015R Packs 1–4.
-
-Apply this pack as the finalisation delta.
+The repository must already include Release-016R Pack 1.
 
 ## Required Actions
 
-1. Merge Pack 5 into the current repository.
-2. Preserve existing governance content from Packs 1–4.
-3. Merge root `INDEX.md`, `CHANGELOG.md`, and `RELEASE-NOTES.md` intelligently.
-4. Add the GLM prompt templates.
-5. Add the canonical Release-015R summary.
-6. Run `review/release-015R-final-integrity-gate.md`.
-7. Confirm that no business-domain knowledge changed.
-8. Commit the changes.
-9. Stop after commit.
+1. Review this delta against the current repository.
+2. Merge the supplied full-file updates into the same repository-relative paths.
+3. Preserve any newer Pack 1 governance terminology or metadata.
+4. Do not create parallel VRC documents.
+5. Confirm that online booking does not imply online cancellation or online rescheduling.
+6. Run `review/release-016R-pack2-review-checklist.md`.
+7. Commit the changes and stop.
 
 ## Do Not
 
-- Recreate Packs 1–4.
-- Replace the repository.
-- Generate Executive Review or Functional Design.
-- Modify business modules.
+- Generate the Business User Review yet.
+- Modify unrelated modules.
+- Reclassify Confirmed rules without evidence.
+- Restore obsolete Future Membership, Future Online Booking or Future Customer Portal questions.

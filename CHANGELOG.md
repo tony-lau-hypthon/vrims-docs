@@ -1,3 +1,21 @@
+## Release-016R Pack 2 — VRC Business Regression
+
+Added / Updated:
+- Current Customer Portal Web App + PWA scope
+- Portal user groups: VR Resident, VRC Member and VC Member
+- VRC Member treatment booking through Customer Portal
+- 30-minute booking-slot allocation clarification
+- 45-minute treatment two-slot reservation rule
+- Resolved-item regression for membership, portal booking and 45-minute scheduling
+- Validated classification in affected VRC documents
+- New rules BR-BKG-017 (VRC Member portal booking) and BR-BKG-018 (portal user groups)
+- Reclassification: BR-BKG-003, BR-BKG-006, BR-BKG-014 → Validated
+
+Business impact:
+- Clarifies current VRC portal and booking scope.
+- No technical design introduced.
+- Online booking does NOT imply online cancellation or rescheduling.
+
 ## Release-016R Pack 1
 - Introduce Knowledge Status model (Confirmed, Validated, Assumption, Pending Validation, Deprecated).
 - Introduce Source Type classification.

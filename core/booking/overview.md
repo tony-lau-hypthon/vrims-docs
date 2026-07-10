@@ -3,7 +3,7 @@ id: VRIMS-BKG-001
 title: Booking Management
 type: Core Capability
 capability: Booking
-version: 0.1
+version: 0.2
 status: Business Review Draft
 owner: BA
 reviewer: Tony
@@ -43,7 +43,7 @@ Module-specific rules, such as VRC therapist assignment rules, should be defined
 
 The first version is based primarily on VRC Session 5 evidence and covers:
 
-- Booking request creation
+- Customer Portal booking request creation for VRC Members
 - Staff confirmation
 - Therapist assignment
 - Room and therapist availability control
@@ -53,6 +53,13 @@ The first version is based primarily on VRC Session 5 evidence and covers:
 - Appointment reminders
 - Package validation integration
 - Reporting impact
+
+## Current Portal Scope
+
+- Customer Portal is a web application with PWA capability.
+- Current user groups: VR Resident, VRC Member and VC Member.
+- VRC Member treatment booking is in current scope.
+- Online reschedule and online cancellation remain separate rules and are not implied by online booking support.
 
 ## Out of Scope for Current Version
 

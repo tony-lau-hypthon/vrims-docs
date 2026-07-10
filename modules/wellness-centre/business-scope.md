@@ -3,7 +3,7 @@ id: VRIMS-WC-001-SCOPE
 title: Wellness Centre Business Scope
 type: Scope
 module: Wellness Centre
-version: 1.1R
+version: 1.2R
 status: Domain Foundation Verified
 visibility:
   executive: true
@@ -21,9 +21,10 @@ visibility:
 | Assessment | Assessment before VRC package purchase; detailed matrix pending | Foundation verified |
 | Product Catalogue | Rehab, speech, assessment, home service, gym, outreach and related products | Foundation verified |
 | Package & Pricing | Single service, premium packages, add-ons, session entitlement and price structure | Foundation verified |
-| Booking | Booking request, staff confirmation, resource assignment and treatment execution | Review-ready |
+| Booking | VRC Member treatment booking through the Customer Portal, staff confirmation, resource assignment and treatment execution | Review-ready |
 | Treatment | Treatment completion and package usage linkage | Review-ready |
 | Billing | Single-service charge, package redemption, invoice and credit-note handling | Foundation verified |
+| Customer Portal | Web app with PWA capability for VR Resident, VRC Member and VC Member | Current scope |
 | Notification | Booking and package lifecycle WhatsApp events | Foundation verified |
 | Promotion | Non-combination rule and future eligibility/discount matrix | Partial |
 | Reporting | Mandatory reports acknowledged; detailed layouts deferred | Deferred |
@@ -43,3 +44,15 @@ visibility:
 ## Business Boundary
 
 Management determines staff rosters and which colleague serves a timeslot. The system records the assigned resource and booking status but does not determine clinical staffing policy.
+
+
+## Portal and Online Booking Clarification
+
+**Knowledge Status:** Validated  
+**Source Type:** Business Clarification  
+**Validation Status:** Not Required
+
+- The Customer Portal is delivered as a web application with PWA capability.
+- VR Resident, VRC Member and VC Member are supported user groups.
+- VRC Members can book VRC treatment through the Customer Portal.
+- Online booking and Customer Portal booking must not be described as future scope.

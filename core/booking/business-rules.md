@@ -3,7 +3,7 @@ id: VRIMS-BKG-RULES-001
 title: Booking Business Rules
 type: Business Rule Catalogue
 capability: Booking
-version: 0.1
+version: 0.2
 status: Business Review Draft
 knowledge_confidence: 95%
 source_sessions:
@@ -13,6 +13,24 @@ source_sessions:
 # Booking Business Rule Catalogue
 
 ## VRC Booking Rules
+
+### BR-BKG-017 — VRC Member can request treatment booking through Customer Portal
+
+**Status:** Validated  
+**Source Type:** Business Clarification  
+**Validation Status:** Not Required  
+**Applies To:** VRC  
+**Description:** A VRC Member can submit a treatment booking request through the Customer Portal web application with PWA capability. The request remains subject to VRC staff confirmation.  
+**Impact:** Customer Portal, Booking Status, Staff Portal.
+
+### BR-BKG-018 — Customer Portal supports three current user groups
+
+**Status:** Validated  
+**Source Type:** Business Clarification  
+**Validation Status:** Not Required  
+**Applies To:** VR Resident, VRC Member, VC Member  
+**Description:** The Customer Portal is current scope for VR Resident, VRC Member and VC Member. Portal access must not be described as a future membership or future portal capability.  
+**Impact:** Customer Portal, Identity, Booking.
 
 ### BR-BKG-001 — Booking requires staff confirmation
 
@@ -32,10 +50,11 @@ source_sessions:
 
 ### BR-BKG-003 — Staff assignment follows the operational roster
 
-**Status:** Tony Confirmed  
+**Status:** Validated  
 **Applies To:** VRC  
 **Description:** VRC management arranges the operational roster and determines which colleague serves a timeslot. The system records the assigned staff resource but does not determine clinical staffing policy.  
-**Evidence:** Tony clarification following Session 5 review.  
+**Source Type:** Business Clarification  
+**Evidence:** Business clarification following Session 5 review.  
 **Impact:** Staff Portal, Therapist Calendar, Role Boundary.
 
 ### BR-BKG-004 — Management role can change therapist after confirmation
@@ -56,11 +75,13 @@ source_sessions:
 
 ### BR-BKG-006 — 45-minute treatment reserves two slots on staff calendar
 
-**Status:** Confirmed with Tony clarification  
+**Status:** Validated  
+**Source Type:** Business Clarification  
+**Validation Status:** Not Required  
 **Applies To:** VRC  
-**Description:** A 45-minute treatment reserves two consecutive 30-minute slots on the Staff Booking Calendar.  
-**Rationale:** Staff scheduling uses fixed 30-minute slots.  
-**Evidence:** Session 5 email and Tony confirmation.  
+**Description:** A 45-minute treatment reserves two consecutive 30-minute slots on the Staff Booking Calendar. Treatment lasts 45 minutes; the remaining 15 minutes stays unavailable within the reserved booking window.  
+**Rationale:** Staff scheduling uses fixed 30-minute slots and resources remain busy for the full reserved window.  
+**Evidence:** Session 5 evidence and business clarification.  
 **Impact:** Staff Calendar, Therapist Availability, Room Availability.
 
 ### BR-BKG-007 — 60-minute treatment reserves two slots
@@ -121,10 +142,11 @@ source_sessions:
 
 ### BR-BKG-014 — Assessment prerequisite for package purchase
 
-**Status:** Tony Confirmed; detailed matrix pending  
+**Status:** Validated; detailed matrix pending  
 **Applies To:** VRC  
 **Description:** Assessment is required before purchasing any VRC package. The required assessment type, validity and fee-waiver rules require Functional Design confirmation.  
-**Evidence:** Tony clarification and Session 5 evidence.  
+**Source Type:** Business Clarification  
+**Evidence:** Business clarification and Session 5 evidence.  
 **Impact:** Booking, Assessment, Package, Billing.
 
 ### BR-BKG-015 — Home visit booking not supported at this moment
@@ -154,16 +176,15 @@ The following rules were revised during the Release-014R VRC Domain Foundation m
 | | |
 |---|---|
 | **Existing knowledge** | "Staff assigns therapist" — Reception or authorised staff assigns therapist during booking confirmation. Status: Confirmed. |
-| **New knowledge** | "Staff assignment follows the operational roster" — VRC management arranges the operational roster and determines which colleague serves a timeslot. The system records the assigned staff resource but does not determine clinical staffing policy. Status: Tony Confirmed. |
+| **New knowledge** | "Staff assignment follows the operational roster" — VRC management arranges the operational roster and determines which colleague serves a timeslot. The system records the assigned staff resource but does not determine clinical staffing policy. Status: Validated. |
 | **Recommended resolution** | Accept new version. This is a refinement, not a contradiction — it clarifies that therapist allocation is an operational roster decision by management, not a system-determined assignment. |
-| **Impact** | Staff Portal, Therapist Calendar, Role Boundary. Status changes from Confirmed to Tony Confirmed. |
+| **Impact** | Staff Portal, Therapist Calendar, Role Boundary. Status changes from Confirmed to Validated. |
 
 ### BR-BKG-014 — Assessment prerequisite
 
 | | |
 |---|---|
 | **Existing knowledge** | "Assessment is mandatory before treatment" — Assessment is mandatory before each treatment type. Assessment may sometimes be free of charge. Status: Confirmed. |
-| **New knowledge** | "Assessment prerequisite for package purchase" — Assessment is required before purchasing any VRC package. The required assessment type, validity and fee-waiver rules require Functional Design confirmation. Status: Tony Confirmed; detailed matrix pending. |
+| **New knowledge** | "Assessment prerequisite for package purchase" — Assessment is required before purchasing any VRC package. The required assessment type, validity and fee-waiver rules require Functional Design confirmation. Status: Validated; detailed matrix pending. |
 | **Recommended resolution** | Accept new version. This is a **scope clarification**: the assessment prerequisite applies to *package purchase*, not to every individual *treatment*. The existing rule was overly broad. |
-| **Impact** | Booking, Assessment, Package, Billing. Status changes from Confirmed to Tony Confirmed (detailed matrix pending). |
-
+| **Impact** | Booking, Assessment, Package, Billing. Status changes from Confirmed to Validated (detailed matrix pending). |

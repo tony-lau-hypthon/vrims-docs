@@ -3,7 +3,7 @@ id: BS-BKG-001
 title: Customer Requests Booking
 type: Business Scenario
 capability: Booking
-version: 0.2
+version: 0.3
 status: Business Review Draft
 business_value: High
 complexity: Medium
@@ -12,11 +12,12 @@ source_sessions:
   - VRC Session 5 Workshop
   - VRC Session 5 Email
   - VRC Session 5 Answered Open Questions
-  - Tony Review
+  - Business clarification
 applies_to:
-  - VRC
-future_variants:
+  - VRC Member
+portal_user_groups:
   - VR Resident
+  - VRC Member
   - VC Member
 ---
 
@@ -28,11 +29,11 @@ Define how a customer or VRC client initiates a booking request before staff rev
 
 ## 2. Business Context
 
-For VRC, the customer-facing booking flow is request-based rather than self-confirmation. The customer may provide preferred booking information, but final confirmation and therapist assignment remain under VRC staff control.
+For VRC, a VRC Member can submit a treatment booking request through the Customer Portal web application with PWA capability. The flow is request-based rather than self-confirmation. The customer may provide preferred booking information, but final confirmation and therapist assignment remain under VRC staff control.
 
 ## 3. Primary Actors
 
-- Customer / VRC Client
+- VRC Member
 - Customer Portal
 - Booking System
 - Reception
@@ -43,14 +44,14 @@ Customer intends to book a VRC treatment, assessment or service appointment.
 
 ## 5. Preconditions
 
-- Customer has sufficient basic profile information to identify the client.
+- Customer is recognised as a VRC Member and has sufficient profile information.
 - Required service/treatment is available for booking.
 - If the service requires prior assessment, assessment requirement must be handled before treatment booking confirmation.
 - Customer Portal must not expose therapist selection for VRC booking.
 
 ## 6. Main Success Flow
 
-1. Customer opens the booking request function.
+1. VRC Member opens the treatment booking function in the Customer Portal.
 2. Customer selects service or treatment type.
 3. Customer provides preferred date and preferred time, or selects first available option if presented.
 4. Customer may provide remarks or special needs.
@@ -100,7 +101,7 @@ Customer intends to book a VRC treatment, assessment or service appointment.
 - VRC Session 5 Workshop
 - VRC Session 5 Email
 - VRC Session 5 Answered Open Questions Q1, Q2, Q4
-- Tony Review confirmation
+- Business clarification
 
 ## 14. BA Notes
 
