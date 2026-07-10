@@ -1,3 +1,12 @@
+# Release-015R Pack 3 — Repository Standards
+
+Purpose:
+Introduces repository-wide documentation and maintenance standards — evidence priority hierarchy, knowledge classification taxonomy, repository maintenance principles, repository delta rules, and document authoring requirements.
+
+This is an architectural governance release. It strengthens the repository operating model without changing existing business knowledge.
+
+---
+
 # Release-015R Pack 2 — Repository Governance Controls
 
 Purpose:

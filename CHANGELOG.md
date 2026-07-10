@@ -1,3 +1,8 @@
+## Release-015R Pack 3
+- Evidence Priority, Knowledge Classification, Repository Maintenance, Repository Delta, Document Authoring standards added.
+- Conflict Review sections added to 4 standards with thematic overlap.
+- INDEX.md standards section updated.
+
 ## Release-015R Pack 2
 - Knowledge Integrity, Repository Health, Repository Lifecycle, Release Governance added.
 - INDEX.md governance section updated.

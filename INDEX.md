@@ -42,3 +42,21 @@
 - Repository QA
 - Traceability
 - Navigation
+
+## Standards
+- `standards/evidence-priority-standard.md` — Evidence Priority Hierarchy
+- `standards/knowledge-classification-standard.md` — Knowledge Classification Taxonomy
+- `standards/repository-maintenance-standard.md` — Repository Maintenance Principles
+- `standards/repository-delta-standard.md` — Repository Delta Rules
+- `standards/document-authoring-standard.md` — Document Authoring Requirements
+- `standards/metadata-standard.md` — Metadata Standard
+- `standards/document-template.md` — Document Template
+- `standards/writing-style-guide.md` — Writing Style Guide
+- `standards/ai-authoring-guide.md` — AI Authoring Guide
+- `standards/business-rule-standard.md` — Business Rule Standard
+- `standards/decision-standard.md` — Decision Standard
+- `standards/scenario-standard.md` — Scenario Standard
+- `standards/acceptance-standard.md` — Acceptance Criteria Standard
+- `standards/traceability-standard.md` — Traceability Standard
+- `standards/glossary-standard.md` — Glossary Standard
+- `standards/review-workflow.md` — Review Workflow
