@@ -109,3 +109,7 @@ This release updates existing Wellness Centre module documents and related reusa
 ## Recommended next output
 
 GLM should generate the VRC Executive Domain Review first, then prepare controlled functional-design drafts by capability.
+
+
+## Release-016R Pack 4
+Pack 4 prepares controlled regeneration of VRC review documents after Pack 3. It adds generation instructions, evidence coverage and acceptance checks without introducing new business requirements.

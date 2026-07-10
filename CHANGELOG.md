@@ -106,3 +106,10 @@ Clarified:
 - VR Finance currently prefers eftPay, subject to technical confirmation.
 - Therapist selection and roster allocation are operationally managed.
 - Supporting reports and screenshots are deferred from the VRC foundation release.
+
+
+## Release-016R Pack 4 — VRC Business Review Generation Handoff
+- Added controlled GLM generation prompt and evidence coverage matrix.
+- Added generation acceptance gate for Executive and Business User reviews.
+- Added no-promotion and no-silent-resolution controls.
+- No business requirement or rule classification changed.

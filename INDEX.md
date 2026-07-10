@@ -91,3 +91,11 @@
 - `docs/releases/016R-pack3-vrc-review-readiness-traceability.md` — Release-016R Pack 3 VRC Review Readiness and Traceability Closure
 - `docs/releases/016R-pack2-vrc-business-regression.md` — Release-016R Pack 2 VRC Business Regression
 - `docs/releases/015R-ba-brain-governance-foundation.md` — Release-015R BA Brain Governance Foundation
+
+
+## Release-016R Pack 4
+- `docs/releases/016R-pack4-vrc-review-generation-handoff.md`
+- `templates/glm-vrc-review-generation-prompt.md`
+- `review/vrc-review-evidence-coverage-matrix.md`
+- `review/release-016R-pack4-review-checklist.md`
+- `deliverables/README.md`
