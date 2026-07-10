@@ -24,6 +24,17 @@
 - Notification
 
 ## Governance
+- `governance/constitution.md` — Repository Constitution
+- `governance/ai-guidelines.md` — AI Operating Guidelines
+- `governance/ai-startup-sequence.md` — AI Startup Sequence
+- `governance/bootstrap-governance.md` — Bootstrap Governance
+- `governance/decision-hierarchy.md` — Decision & Evidence Hierarchy
+- `governance/naming-standard.md` — Naming Standard
+- `governance/metadata-standard.md` — Metadata Standard
+- `governance/repository-readiness.md` — Repository Readiness
+- `governance/cross-capability-traceability.md` — Cross-Capability Traceability
+- `governance/id-audit.md` — ID Audit
+- `governance/open-quality-items.md` — Open Quality Items
 - Repository QA
 - Traceability
 - Navigation

@@ -1,3 +1,14 @@
+# Release-015R Pack 1 — Repository Governance Foundation
+
+Purpose:
+Establish the repository governance framework — constitution, AI operating guidelines, startup sequence, bootstrap governance, and decision hierarchy.
+
+This is an architectural governance release. It strengthens the repository operating model without changing existing business knowledge. All existing business modules are unaffected.
+
+Conflict Review sections were added to `governance/ai-guidelines.md` and `governance/decision-hierarchy.md` to document content overlap with existing standards.
+
+---
+
 # Release-014R — VRC Domain Foundation Consolidation
 
 Purpose:

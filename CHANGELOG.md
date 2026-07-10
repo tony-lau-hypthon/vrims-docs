@@ -1,3 +1,13 @@
+## Release-015R
+- Governance Pack 1 added (Constitution, AI Guidelines, AI Startup Sequence, Bootstrap Governance, Decision Hierarchy).
+- Conflict Review sections added to `governance/ai-guidelines.md` and `governance/decision-hierarchy.md`.
+- INDEX.md governance section updated to register new documents.
+- Existing business modules unaffected.
+
+---
+
+## Release-014R
+
 Added:
 - VRC Domain Foundation consolidation under `modules/wellness-centre/`
 - Wellness Centre product and service catalogue
