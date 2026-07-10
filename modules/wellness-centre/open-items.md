@@ -3,8 +3,8 @@ id: VRIMS-WC-001-OPEN-ITEMS
 title: Wellness Centre Open Items
 type: Open Items
 module: Wellness Centre
-version: 0.6R
-status: Business Review Draft
+version: 1.1R
+status: Domain Foundation Verified
 visibility:
   executive: true
   business: true
@@ -13,23 +13,46 @@ visibility:
 
 # Open Items
 
-## Confirmed Remaining Open / Partial Items
+## Pending VR Confirmation
 
-| Item | Area | Status | Notes |
+| Item | Area | Why Required |
+|---|---|---|
+| Customer eligibility matrix | Product / Promotion | Define which customer groups may purchase each product/package |
+| Discount matrix | Pricing / Promotion | Define resident, member, staff, relative and corporate treatment |
+| Accepted payment methods | Billing | Confirm supported payment channels |
+| Deposit / partial payment / instalment | Billing | Define settlement and outstanding-balance behaviour |
+| Refund calculation and approval | Billing | Define refundable amount and authority |
+| eftPay integration approach | Integration | Confirm technical method and vendor support |
+
+## Functional Design Required
+
+| Item | Area | Design Need |
+|---|---|---|
+| Monthly package definition | Package | Confirm exact validity duration and expiry |
+| Validity start rule | Package | Confirm purchase date vs first-use date |
+| Multiple-package selection | Package / Billing | Define automatic selection and whether controlled staff intervention exists |
+| Assessment matrix | Assessment | Map service/package to required assessment |
+| 45-minute scheduling | Booking | Explain reservation of two 30-minute slots |
+| Notification configuration | Notification | Confirm timing, language, recipient and final text |
+
+## Deferred Supporting Evidence
+
+- Detailed report layout and calculations
+- Sample transaction and income reports
+- Sample invoice layout
+- Daily schedule images
+- UI screenshots and mockups
+
+---
+
+## Conflict Review (Release-014R Merge)
+
+The open items list was restructured during the Release-014R merge. Key changes:
+
+| Area | Existing | New | Resolution |
 |---|---|---|---|
-| Payment Gateway | Billing | TBD | eftPay / QFPay not confirmed |
-| Report Layout Details | Reporting | Partial | Existing samples mandatory, but detailed columns and filters need consolidation |
-| WhatsApp Template Final Text | Notification | Partial | Sample PNG files exist |
-| Package Detailed Behaviour | Package | Partial | Requires package capability specification |
-| Assessment Detailed Behaviour | Assessment | Partial | Requires assessment capability specification |
+| Structure | Two sections: VRC Functional Design (6 items) + Future Capability Releases (5 items) | Three sections: Pending VR Confirmation (6-item table) + Functional Design Required (6-item table) + Deferred Supporting Evidence (5 items) | Accepted — richer structure with status classification |
+| Payment items | Generic "Payment gateway provider" | Specific: eftPay integration approach, deposit/partial payment, accepted payment methods | Accepted — more precise |
+| Assessment items | "Detailed form fields / clinical scoring" | "Assessment matrix: service/package to required assessment" | Accepted — aligns with BR-BKG-014 |
+| Package items | "Same-expiry tie-breaker" | "Monthly package definition + validity start rule + multiple-package selection" | Accepted — richer |
 
-## Closed Open Questions from Session 5
-
-The answered open question sheet has confirmed key policies including:
-- No online reschedule for VRC client
-- No online cancellation for VRC client
-- Customer cannot choose therapist
-- No waiting list
-- No package deduction for no-show
-- Closest-expiry package consumed first
-- Promotions cannot combine with member discounts

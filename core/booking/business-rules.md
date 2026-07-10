@@ -30,13 +30,13 @@ source_sessions:
 **Evidence:** Answered open question Q4.  
 **Impact:** Customer Portal, Staff Portal, Therapist Scheduling.
 
-### BR-BKG-003 — Staff assigns therapist
+### BR-BKG-003 — Staff assignment follows the operational roster
 
-**Status:** Confirmed  
+**Status:** Tony Confirmed  
 **Applies To:** VRC  
-**Description:** Reception or authorised staff assigns therapist during booking confirmation.  
-**Evidence:** Session 5 follow-up and answered open questions.  
-**Impact:** Staff Portal, Therapist Calendar.
+**Description:** VRC management arranges the operational roster and determines which colleague serves a timeslot. The system records the assigned staff resource but does not determine clinical staffing policy.  
+**Evidence:** Tony clarification following Session 5 review.  
+**Impact:** Staff Portal, Therapist Calendar, Role Boundary.
 
 ### BR-BKG-004 — Management role can change therapist after confirmation
 
@@ -119,13 +119,13 @@ source_sessions:
 **Evidence:** Answered open question Q20.  
 **Impact:** Package Management, Finance, Reporting.
 
-### BR-BKG-014 — Assessment is mandatory before treatment
+### BR-BKG-014 — Assessment prerequisite for package purchase
 
-**Status:** Confirmed  
+**Status:** Tony Confirmed; detailed matrix pending  
 **Applies To:** VRC  
-**Description:** Assessment is mandatory before each treatment type. Assessment may sometimes be free of charge.  
-**Evidence:** Answered open question Q17.  
-**Impact:** Booking, Assessment, Billing.
+**Description:** Assessment is required before purchasing any VRC package. The required assessment type, validity and fee-waiver rules require Functional Design confirmation.  
+**Evidence:** Tony clarification and Session 5 evidence.  
+**Impact:** Booking, Assessment, Package, Billing.
 
 ### BR-BKG-015 — Home visit booking not supported at this moment
 
@@ -142,3 +142,28 @@ source_sessions:
 **Description:** If a customer has multiple active packages, the package with the closest expiry date is consumed first.  
 **Evidence:** Answered open question Q9.  
 **Impact:** Booking Validation, Package Management, Billing.
+
+---
+
+## Conflict Review (Release-014R Merge)
+
+The following rules were revised during the Release-014R VRC Domain Foundation merge. Existing knowledge was not silently overwritten — the changes are documented below for traceability.
+
+### BR-BKG-003 — Therapist assignment
+
+| | |
+|---|---|
+| **Existing knowledge** | "Staff assigns therapist" — Reception or authorised staff assigns therapist during booking confirmation. Status: Confirmed. |
+| **New knowledge** | "Staff assignment follows the operational roster" — VRC management arranges the operational roster and determines which colleague serves a timeslot. The system records the assigned staff resource but does not determine clinical staffing policy. Status: Tony Confirmed. |
+| **Recommended resolution** | Accept new version. This is a refinement, not a contradiction — it clarifies that therapist allocation is an operational roster decision by management, not a system-determined assignment. |
+| **Impact** | Staff Portal, Therapist Calendar, Role Boundary. Status changes from Confirmed to Tony Confirmed. |
+
+### BR-BKG-014 — Assessment prerequisite
+
+| | |
+|---|---|
+| **Existing knowledge** | "Assessment is mandatory before treatment" — Assessment is mandatory before each treatment type. Assessment may sometimes be free of charge. Status: Confirmed. |
+| **New knowledge** | "Assessment prerequisite for package purchase" — Assessment is required before purchasing any VRC package. The required assessment type, validity and fee-waiver rules require Functional Design confirmation. Status: Tony Confirmed; detailed matrix pending. |
+| **Recommended resolution** | Accept new version. This is a **scope clarification**: the assessment prerequisite applies to *package purchase*, not to every individual *treatment*. The existing rule was overly broad. |
+| **Impact** | Booking, Assessment, Package, Billing. Status changes from Confirmed to Tony Confirmed (detailed matrix pending). |
+

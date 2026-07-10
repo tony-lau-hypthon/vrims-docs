@@ -3,8 +3,8 @@ id: VRIMS-WC-001-CAPABILITY-MAP
 title: Wellness Centre Capability Reference Map
 type: Capability Map
 module: Wellness Centre
-version: 0.6R
-status: Business Review Draft
+version: 1.1R
+status: Domain Foundation Verified
 visibility:
   executive: true
   business: true
@@ -19,13 +19,17 @@ visibility:
 Wellness Centre (VRC)
   ├── Customer Registration
   ├── Assessment Management
+  │     └── Refer to core/assessment
   ├── Booking Management
   │     └── Refer to core/booking
   ├── Treatment Management
   ├── Package Management
+  │     └── Refer to core/package
   ├── Billing & Finance
-  ├── Promotion & Membership
+  │     └── Refer to core/billing
+  ├── Promotion & Eligibility
   ├── Notification
+  │     └── Refer to shared/notification
   └── Reporting
 ```
 
@@ -34,11 +38,13 @@ Wellness Centre (VRC)
 | Capability | Source | Status |
 |---|---|---|
 | Booking Management | `core/booking/` | Review-ready |
-| Package Management | Future core capability | Partial |
-| Assessment Management | Future core capability | Partial |
-| Billing & Finance | Future / Finance session | Partial |
-| Notification | Shared capability | Partial |
-| Reporting | Module-specific + shared | Partial |
+| Package Management | `core/package/` | Review-ready foundation |
+| Assessment Management | `core/assessment/` | Review-ready foundation |
+| Billing & Finance | `core/billing/` | Review-ready foundation |
+| Notification | `shared/notification/` | Review-ready foundation |
+| Reporting | Module-specific + future shared capability | Deferred |
+| Promotion / Eligibility | Wellness Centre module | Pending VR matrix |
 
 ## Design Principle
-VRC-specific module documents should reference core capability documents instead of duplicating the full business logic.
+
+VRC-specific commercial and operational rules remain under this module. Generic lifecycle, booking, billing, assessment and notification behaviour belongs to reusable capabilities.

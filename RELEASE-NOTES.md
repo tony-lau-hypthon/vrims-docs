@@ -1,6 +1,19 @@
-# Release-013R — Repository Navigation Layer
+# Release-014R — VRC Domain Foundation Consolidation
 
 Purpose:
-Create a navigation layer for the VRIMS documentation repository so reviewers can quickly locate capabilities, scenarios, business rules and decisions.
+Consolidate the verified VRC / Wellness Centre core knowledge into the existing VRIMS documentation repository structure.
 
-This release does not introduce new business requirements.
+This release updates existing Wellness Centre module documents and related reusable capabilities. It does not introduce detailed report layouts, UI design, API design or technical configuration.
+
+## Main outcomes
+
+- Clarified the VRC domain boundary from VR Resident care packages.
+- Consolidated registration, assessment, service, product, package, pricing, booking, billing and notification knowledge.
+- Added verified premium package composition and pricing reference.
+- Clarified therapist assignment as an operational responsibility.
+- Classified unresolved items as Tony-confirmed, design assumptions, pending VR or functional-design requirements.
+- Deferred supporting report samples, screenshots and operational schedule interpretation.
+
+## Recommended next output
+
+GLM should generate the VRC Executive Domain Review first, then prepare controlled functional-design drafts by capability.

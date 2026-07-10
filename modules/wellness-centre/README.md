@@ -3,43 +3,47 @@ id: VRIMS-WC-001
 title: Wellness Centre (VRC)
 type: Module
 module: Wellness Centre
-version: 0.1
-status: Skeleton
+version: 1.1R
+status: Domain Foundation Verified
 owner: BA
 reviewer: Tony
-knowledge_confidence: 93%
+knowledge_confidence: 95%
 source_sessions:
   - Session 5
-last_updated: 2026-07-09
+last_updated: 2026-07-10
 ---
 
 # Wellness Centre (VRC)
 
-This module documents the VRC Wellness Centre business design.
+This module documents the VRC Wellness Centre business domain.
 
-Wellness Centre depends on the following core capabilities:
+## Domain Boundary
+
+VRC is a separate commercial rehabilitation and wellness domain from VR Resident care-package operations.
+
+The nine standard and three special care plans belong to VR Resident care packages. They must not be treated as VRC therapy packages.
+
+## Core Dependencies
 
 - Booking Management
 - Package Management
 - Assessment Management
 - Billing & Finance
 - Notification
-- Reporting
 
-## Planned Files
+## Module Documents
 
-- overview.md
-- customer-journey.md
-- registration.md
-- assessment.md
-- booking.md
-- package.md
-- billing.md
-- promotion.md
-- notification.md
-- reporting.md
-- appendix.md
+- `business-scope.md`
+- `customer-journey-review.md`
+- `business-rules-summary.md`
+- `product-catalogue.md`
+- `package-and-pricing.md`
+- `registration-and-assessment.md`
+- `capability-reference-map.md`
+- `open-items.md`
+- `review-readiness.md`
+- `executive-review.md`
 
 ## Design Principle
 
-Module documents should reference core capability specifications instead of duplicating business rules.
+Module documents define VRC-specific business context and reference reusable capability documents instead of duplicating generic capability behaviour.

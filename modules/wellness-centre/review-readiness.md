@@ -3,8 +3,8 @@ id: VRIMS-WC-001-READINESS-R
 title: Wellness Centre Review Readiness
 type: Readiness Assessment
 module: Wellness Centre
-version: 0.6R
-status: Business Review Draft
+version: 1.1R
+status: Domain Foundation Verified
 visibility:
   executive: true
   business: true
@@ -13,27 +13,20 @@ visibility:
 
 # Wellness Centre Review Readiness
 
-## Readiness Summary
-
 | Area | Readiness | Notes |
 |---|---|---|
-| Customer Journey | High | Main VRC journey is clear |
-| Booking | High | Booking capability review pack completed |
-| Assessment | Medium | Business principle known; detailed capability pending |
-| Package | Medium | Key rules known; detailed capability pending |
-| Billing | Medium-Low | Payment gateway and finance details pending |
-| Promotion | Medium | Combination rule confirmed |
-| Notification | Medium | Triggers known; template content partial |
-| Reporting | Medium-Low | Mandatory samples known; detailed layout pending |
+| Customer Journey | High | Main VRC journey consolidated |
+| Product Catalogue | High | Core service/product lines understood |
+| Package & Pricing | High | Premium package composition and key prices captured |
+| Booking | High | Reusable capability and VRC-specific rules consolidated |
+| Assessment | Medium-High | Purchase prerequisite understood; matrix pending |
+| Billing | Medium-High | Main lifecycle understood; payment policies pending |
+| Promotion / Eligibility | Medium | Non-combination rule known; matrix pending VR |
+| Notification | High | Trigger events known; templates pending |
+| Reporting | Deferred | Supporting evidence intentionally postponed |
 
 ## Overall Assessment
 
-The Wellness Centre module is ready for **Tony / BA Business Review** and can be used to produce a first VR review pack.
+The VRC Domain Foundation is ready for Executive Domain Review and controlled Functional Design drafting.
 
-It is not yet a Hopkins Functional Configuration specification.
-
-## Recommended Render Outputs
-
-1. `VRIMS-WC-001 Executive Review`
-2. `VRIMS-WC-001 Business Review`
-3. `VRIMS-BKG-001 Booking Reference Appendix`
+It is not a final Hopkins configuration specification. Design assumptions and pending VR decisions must remain visibly labelled.

@@ -3,8 +3,8 @@ id: VRIMS-WC-001-SCOPE
 title: Wellness Centre Business Scope
 type: Scope
 module: Wellness Centre
-version: 0.6R
-status: Business Review Draft
+version: 1.1R
+status: Domain Foundation Verified
 visibility:
   executive: true
   business: true
@@ -17,25 +17,29 @@ visibility:
 
 | Area | Description | Status |
 |---|---|---|
-| Customer Registration | Basic client creation and profile handling | Review |
-| Assessment | Assessment before treatment where required | Review |
-| Booking | Booking request, review, confirmation and execution via core Booking capability | Review-ready |
-| Treatment | Treatment delivery and completion | Review |
-| Package | Package validation and redemption overview | Partial |
-| Billing | Invoice, receipt and credit note overview | Partial |
-| Promotion | Promotion and member discount relationship | Review |
-| Notification | Booking confirmation and reminder | Review |
-| Reporting | Operational reports and mandatory samples | Partial |
+| Customer Registration | VRC client identity, contact, emergency contact, insurance, source and consent handling | Foundation verified |
+| Assessment | Assessment before VRC package purchase; detailed matrix pending | Foundation verified |
+| Product Catalogue | Rehab, speech, assessment, home service, gym, outreach and related products | Foundation verified |
+| Package & Pricing | Single service, premium packages, add-ons, session entitlement and price structure | Foundation verified |
+| Booking | Booking request, staff confirmation, resource assignment and treatment execution | Review-ready |
+| Treatment | Treatment completion and package usage linkage | Review-ready |
+| Billing | Single-service charge, package redemption, invoice and credit-note handling | Foundation verified |
+| Notification | Booking and package lifecycle WhatsApp events | Foundation verified |
+| Promotion | Non-combination rule and future eligibility/discount matrix | Partial |
+| Reporting | Mandatory reports acknowledged; detailed layouts deferred | Deferred |
 
-## Out of Scope for R Version
+## Explicitly Out of Scope for This Foundation Release
 
 - Odoo object design
 - API design
 - Database schema
-- Payment gateway final implementation
-- Technical integration
-- Detailed package accounting configuration
-- Detailed report field layout
+- Final payment-gateway implementation
+- Detailed report field layouts
+- Dashboard design
+- Daily staff roster interpretation
+- UI mockups and screenshots
+- Detailed clinical scoring rules
 
-## Notes
-R Version is for business confirmation only. Functional and technical details should be developed after business review.
+## Business Boundary
+
+Management determines staff rosters and which colleague serves a timeslot. The system records the assigned resource and booking status but does not determine clinical staffing policy.

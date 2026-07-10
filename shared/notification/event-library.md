@@ -36,3 +36,14 @@ Notification is a shared capability. Source modules trigger notification events;
 
 ## Current Review Position
 This is Review Version. It confirms event requirements, not final provider configuration.
+
+## VRC Event Set
+
+| Event | Business Trigger | Current Channel |
+|---|---|---|
+| NTF-BKG-001 | VRC booking confirmed | WhatsApp |
+| NTF-BKG-002 | Appointment reminder | WhatsApp |
+| NTF-PKG-001 | Package expiry approaching | WhatsApp |
+| NTF-PKG-003 | Final package session | WhatsApp |
+
+Separate VR and VRC WhatsApp Business Accounts are technically possible. Final account ownership, approved templates, languages, recipients and timing require Functional Design confirmation.
